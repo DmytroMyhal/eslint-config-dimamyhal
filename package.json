@@ -6,7 +6,9 @@
   "license": "ISC",
   "peerDependencies": {
     "eslint": ">= 3",
-    "@typescript-eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
     "eslint-plugin-react": "*",
     "eslint-config-prettier": "*"
   },
