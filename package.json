@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-dimamyhal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "dimamygal0708@gmail.com",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "@typescript-eslint": "*",
+    "eslint-plugin-react": "*",
+    "eslint-config-prettier": "*"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
