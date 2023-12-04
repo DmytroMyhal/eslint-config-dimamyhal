@@ -1,11 +1,13 @@
 module.exports = {
-  plugins: ['@typescript-eslint', 'react'],
+  plugins: ['@typescript-eslint', 'react', 'jsx-a11y'],
   extends: [
+    'eslint:recommended',
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/jsx-runtime',
-    'plugin:prettier/recommended',
+    'plugin:jsx-a11y/recommended',
   ],
+  root: true,
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
