@@ -55,5 +55,10 @@ module.exports = {
       'error',
       { namedComponents: 'arrow-function' },
     ],
+
+    /* A11y rules */
+
+    // Allow autofocus
+    'jsx-a11y/no-autofocus': 'off',
   },
 };
